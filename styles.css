@@ -29,24 +29,27 @@ body {
     color: rgb(255, 111, 111);
 }
 
+main {
+  max-width: 70ch;
+  margin: 0 auto;
+  text-align: start;
+}
+
 /* links */
 a:link {
-  color: rgb(255, 161, 161);
+  color: rgb(255, 138, 138);
 }
 a:visited {
   color: rgb(255, 123, 123);
 }
 
 .button {
-  font: bold 11px Arial;
+  font: bold 12px "Source Code Pro", monospace;
   text-decoration: none;
-  background-color: #8e2828;
+  background-color: #4a1515;
   color: #333333;
   padding: 4px 12px 4px 12px;
-  border-top: 3px solid #ed8686;
-  border-right: 3px solid #8a4848;
-  border-bottom: 3px solid #8a4848;
-  border-left: 3px solid #ed8686;
+  border: 3px solid #b23b3b;
 }
 
 /* footer */
