@@ -42,19 +42,28 @@ main {
 
 /* links */
 a:link {
-  color: rgb(255, 138, 138);
+  color: rgb(252, 143, 143);
 }
 a:visited {
-  color: rgb(255, 123, 123);
+  color: rgb(252, 143, 143);
 }
 
-.button {
+.fancy-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 31px;
   font: bold 12px "Source Code Pro", monospace;
   text-decoration: none;
   background-color: #4a1515;
-  color: #333333;
+  color: rgb(252, 143, 143);
   padding: 4px 12px 4px 12px;
   border: 3px solid #b23b3b;
+}
+
+.fancy-button:hover {
+  background-color: #3a1111;
+  border: 3px solid #9a3232;
 }
 
 /* footer */
@@ -65,4 +74,8 @@ footer {
   text-align: start;
   font-size: small;
   margin-top: auto;
+}
+
+footer img {
+  vertical-align: middle;
 }
